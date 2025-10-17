@@ -1,5 +1,5 @@
 @echo off
-REM Поддержка кириллице в консоли
+REM Поддержка кириллицы в консоли
 chcp 65001 >nul
 
 echo Проверка и создание ярлыка через PowerShell...
@@ -12,3 +12,4 @@ powershell -ExecutionPolicy Bypass -Command "$fullPath='%FULL_PATH%'; $desktopPa
 
 
 echo.
+
